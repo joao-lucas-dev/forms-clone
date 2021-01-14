@@ -10,7 +10,7 @@ const Test: React.FC = () => {
         <div className="block first-block">
           <h1>Prova de Conhecimentos Gerais</h1>
 
-          <span>Sua resposta foi registrada.</span>
+          <span className="black">Sua resposta foi registrada.</span>
 
           <div className="link-goback">
             <Link to="/">Enviar outra resposta</Link>
