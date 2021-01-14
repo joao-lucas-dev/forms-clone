@@ -1,0 +1,49 @@
+.container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.block {
+  background: #fff;
+  padding: 22px 24px 24px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.first-block {
+  border-top: 10px solid #0075ff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #202124;
+}
+
+section h4 {
+  color: #202124;
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+.remove-margin {
+  margin: 0;
+}
+
+section .answers,
+section .answers ul {
+  display: flex;
+}
+
+section .answers ul {
+  margin-left: 10px;
+}
+
+section .answers ul li {
+  margin-right: 10px;
+}
+
+section .answers ul li span {
+  color: #0075ff;
+  font-weight: 600;
+}

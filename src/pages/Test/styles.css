@@ -1,0 +1,49 @@
+.container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.block {
+  background: #fff;
+  padding: 22px 24px 24px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.first-block {
+  border-top: 10px solid #0075ff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #202124;
+}
+
+header span {
+  display: block;
+  font-size: 14px;
+  color: #ff0000;
+  margin: 12px 0 0;
+}
+
+section h4 {
+  color: #202124;
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+section h4 span {
+  color: #ff0000;
+  margin-left: 5px;
+}
+
+
+section .answer-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  padding-bottom: 10px;
+}
